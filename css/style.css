@@ -114,6 +114,11 @@ nav{
 	margin-left: auto;
 	margin-right: auto;
 }
+footer{
+	background:red;
+	fontsize:40px;
+	color: white;
+}
 @media(min-width: 500px){
 	.nav-group{
 		display: flex;
