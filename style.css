@@ -7,6 +7,8 @@ body{
 	margin-top:0px;
 	padding:0px;
 }
+
+}
 .navbrand{
 	width:50px;
 	margin-top: 0px;
@@ -41,6 +43,7 @@ body{
 .btn:hover{
 	background:#7399c6;
 	color: white;
+	cursor: pointer;
 }
 nav{
 	box-shadow: 0px 2px 1px 0.5px grey;
@@ -109,10 +112,146 @@ nav{
 .btns:hover{
 	background: #22A2FF;
 	color: white;
+	cursor: pointer;
 }
 .text-3{
 	margin-left: auto;
 	margin-right: auto;
+}
+.thirdsection{
+	font-size: 1.5em;
+	color:black;
+	/*margin-left:50px;*/
+	width: 50%;
+}
+.career{
+	font-size:0.75em;
+	margin-top: 0%;
+	padding-top: 0px;
+}
+.thirdsectioninner img{
+	width: 100%;
+	height:200px;
+	background-size: contain;
+	box-sizing: border-box;
+}
+.section{
+	margin-bottom: 2px;
+	margin-top: 3px;
+}
+.fourthsection{
+
+	/*text-align: center;*/
+}
+.fourthsectioninners{
+	font-size: 0.5em;
+	margin-right: auto;
+}
+.high{
+	margin-left: 0px;
+}
+.fifthsection{
+	font-size:0.5em;
+	margin-top:0px;
+	width: 50%;
+	margin-left:3px;
+	/*margin-right: 100px;*/
+	text-align: left;
+}
+.fifthsection:hover{
+	color: skyblue;
+}
+.sectionfour img{
+	margin-right: auto;
+	width: 100%;
+	box-sizing: border-box;
+	height: 200px;
+	margin-left: 0px;
+}
+.sectionsix{
+	margin-top:0px;
+	width:50%;
+	font-size: 1em;
+	margin-left: 3px;
+	font-weight: bolder;
+	/*text-align: center;*/
+}
+.sectionsixinner img{
+	margin-right: auto;
+	width: 100%;
+	box-sizing: border-box;
+	height: 200px;
+	margin-left: 0px;
+}
+.sectionsix:hover{
+	color: skyblue;
+}
+.sectionseven{
+	/*margin-left: 50%;*/
+	margin-top: -50px;
+	background: white;
+	background-color: white;
+	font-size: 1em;
+}
+.sectionseven:hover{
+	color: skyblue;
+}
+.h1{
+	font-size: 1em;
+}
+footer{
+	background: darkblue;
+}
+.h6{
+	padding-top:10px;
+
+}
+.button{
+	background-color: rgba(0, 0, 0, 0);
+	width: 70%;
+	border:solid skyblue 2px;
+	color: skyblue;
+	height: 30px;
+	margin-bottom: 30px;
+}
+.button:hover{
+	background: skyblue;
+	color: white;
+	cursor: pointer;
+}
+.sectioneight{
+	background:rgb(21, 25, 69);
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 0.7em;
+	padding-left: 40px;
+}
+h2{
+	color:  #22A2FF;
+	font-size: 1.3em
+}
+h2:hover{
+	color: skyblue;
+	cursor: pointer;
+}
+.prepared{
+	margin-left: 10px;
+	font-size: 1.5em;
+	margin-top: 30px;
+	font-weight: bolder;
+}
+.plomp{
+	margin-top:50px;
+	/*margin-left: 10px;*/
+}
+.b4{
+	/*margin-left: 70px;*/
+	margin-top:20px;
+	margin-left: 5px;
+}
+.bam{
+	display: flex;
 }
 @media(min-width: 500px){
 	.nav-group{
@@ -121,6 +260,16 @@ nav{
 		margin-right:auto;
 		padding: 0px; 
 	}
+	.navigation{
+	margin: 0px;
+	padding: 5px;
+	padding-left: 10px;
+	box-shadow: 0px 3px 5px 0px lightgrey;
+	position: fixed;
+	width:100%;
+	top:0px;
+	background: white;
+}
 	nav{
 		display: flex;
 	}
@@ -210,4 +359,82 @@ nav{
 	.firstsection{
 		/*height: 50em;*/
 	}
- }
+	.thirdsectioninner img{
+		font-size:20px;
+		width: 100%;
+		height: 250px;
+		margin-bottom: 0px; 
+	}
+	.section{
+		display: flex;
+	}
+	.thirdsection{
+		/*margin-left: 20px;*/
+	}
+	.high{
+		font-size: 2em;
+		letter-spacing:2px;
+		margin-bottom: 0px; 
+	}
+	.career{
+		letter-spacing: 2px;
+		font-size: 0.5em;
+	}
+	.fourthsection{
+		display: flex;
+	}
+	.sectionfour img{
+		width: 80%;
+		height: 500px;
+		margin-left: 30px;
+	}
+	.fifthsection{
+		font-size: 1em;
+	}
+	.sixthsection{
+		display: flex;
+		width: 100%;
+	}
+	.sixthsection img{
+		width:80%;
+		height: 300px;
+		margin-left: 20px;
+	}
+	.sectionsix{
+		font-size: 1.5em;
+		margin-left: 30px;
+	}
+	.sectionseven{
+		/*display:flex;*/
+		font-size: 2em;
+		margin-left: 400px;
+	}
+	.button{
+		width: 40%;
+	}
+	.sectioneight{
+		width: 40%;
+		font-size: 1em;
+		padding-right: 20px;
+		/*text-align: center;*/
+	}
+	.nothing{
+		background: white;
+		width: 100%;
+	}
+	.prepared{
+		font-size: 3em;
+		margin-left: 40px;
+		font-weight: normal;
+	}
+	.plomp{
+		margin-left: 50px;
+	}
+	.b4{
+		margin-left: 40px;
+		/*display: flex;*/
+		/*width: 0%;*/
+		/*text-align: center;*/
+	}
+	
+}
